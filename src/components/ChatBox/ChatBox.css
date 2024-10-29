@@ -1,0 +1,151 @@
+.chat-box{
+    height: 85vh;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.chat-user{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.chat-user .user{
+    display: flex;
+    align-items: center;
+}
+
+.chat-user img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.help{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.help>*{
+    margin-top: 10px;
+}
+
+.chat-user p{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+.chat-user span{
+    margin-top: 10px;
+    font-size: 25px;
+    color: green;
+}
+
+.chat-input{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 8px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-input div{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.chat-input .send{
+    font-size: 40px;
+    color: #024cAA;
+}
+
+.chat-box input{
+    padding: 10px 15px;
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+
+
+.chat-msg{
+    height: calc(100% - 145px);
+    overflow-y: scroll;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.r-msg div img, .s-msg div img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.r-msg,.s-msg{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 10px;
+    padding: 0 15px;
+}
+
+.r-msg{
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.r-msg .msg{
+    color: #fff;
+    background-color: #024cAA;
+    border-radius: 8px 8px 8px 0 ;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 300px;
+
+}
+
+.s-msg .msg{
+    color: #fff;
+    background-color: #024cAA;
+    border-radius: 8px 8px 0 08px ;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 300px;
+
+}
+
+.r-msg div p, .s-msg div p{
+    font-size: 10px;
+    color: #424242;
+    
+}
+
+.chat-welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chat-welcome>img{
+    width: 100px;
+}
+
+.chat-welcome>p{
+    font-weight: bolder;
+    color: green;
+}

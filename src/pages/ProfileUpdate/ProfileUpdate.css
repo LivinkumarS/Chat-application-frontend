@@ -1,0 +1,79 @@
+.profile {
+  width: 100vw;
+  height: 100vh;
+  background: url("/chat-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 80vh;
+}
+
+.profilePicture{
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    margin: 10px auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profilePicture:hover{
+    opacity: 0.7;
+}
+
+.profile form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.profile form h2{
+    font-size: xx-large;
+
+}
+
+.profile form input{
+    width: 300px;
+    padding: 10px 15px;
+    outline-color: #024cAA;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.profile form textarea{
+    width: 300px;
+    padding: 10px 15px;
+    outline-color: #024cAA;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    background-color: #024cAA;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 30px;
+}

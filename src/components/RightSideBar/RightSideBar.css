@@ -1,0 +1,84 @@
+.rs{
+    color: #fff;
+    background-color: #001030;
+    position: relative;
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.rs-profile{
+    padding-top: 30px;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+.rs-profile img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.rs-profile h3 span{
+    color: green;
+    margin-top: 10px;
+}
+
+.rs-profile h3{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rs-profile p{
+    font-weight: 600;
+    color: gray;
+}
+
+.rs hr{
+    border-color: #ffffff50;
+    margin: 15px 0;
+    height: 1px;
+    background-color: #ffffff50;
+}
+
+.rs-media{
+    padding: 0 20px;
+    font-size: larger;
+}
+
+.rs-media div{
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+    height: auto;
+    max-height: 200px;
+}
+
+.rs-media div img{
+    width: 60px;
+}
+
+button.log-out{
+    padding: 7px 10px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #024cAA;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.empty{
+    font-size: smaller;
+    color: gray;
+}
